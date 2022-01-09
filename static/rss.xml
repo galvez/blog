@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Jonas Galvez</title>
+<link>https://hire.jonasgalvez.com.br</link>
+<description>A NuxtPress Blog Description</description>
+<item>
+<link>https://hire.jonasgalvez.com.br/2020/feb/22/the-ultimate-nuxt-api-setup/</link>
+<guid>tag:nuxt.press,2020:/2020/feb/22/the-ultimate-nuxt-api-setup/</guid>
+<pubDate>Sat Feb 22 2020 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>The Ultimate Nuxt API Setup</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2019/nov/03/from-vuex-to-vuestator/</link>
+<guid>tag:nuxt.press,2019:/2019/nov/03/from-vuex-to-vuestator/</guid>
+<pubDate>Sun Nov 03 2019 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>From Vuex to VueStator</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2019/aug/19/the-story-of-nuxtpress/</link>
+<guid>tag:nuxt.press,2019:/2019/aug/19/the-story-of-nuxtpress/</guid>
+<pubDate>Mon Aug 19 2019 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>The Story of NuxtPress</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2019/may/05/a-vuejs-inspired-task-runner/</link>
+<guid>tag:nuxt.press,2019:/2019/may/05/a-vuejs-inspired-task-runner/</guid>
+<pubDate>Sun May 05 2019 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>A Vue.js Inspired Task Runner</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2019/apr/27/nuxt-the-hard-parts/</link>
+<guid>tag:nuxt.press,2019:/2019/apr/27/nuxt-the-hard-parts/</guid>
+<pubDate>Sat Apr 27 2019 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>Nuxt: The Hard Parts</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2019/apr/26/revamping-nuxts-http-server/</link>
+<guid>tag:nuxt.press,2019:/2019/apr/26/revamping-nuxts-http-server/</guid>
+<pubDate>Fri Apr 26 2019 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>Revamping Nuxt's HTTP Server</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2018/aug/12/the-thing-about-nuxt/</link>
+<guid>tag:nuxt.press,2018:/2018/aug/12/the-thing-about-nuxt/</guid>
+<pubDate>Sun Aug 12 2018 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>The Thing About Nuxt</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2018/may/20/you-dont-need-rest/</link>
+<guid>tag:nuxt.press,2018:/2018/may/20/you-dont-need-rest/</guid>
+<pubDate>Sun May 20 2018 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>You Don't Need REST</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2017/aug/25/leaving-python-for-javascript/</link>
+<guid>tag:nuxt.press,2017:/2017/aug/25/leaving-python-for-javascript/</guid>
+<pubDate>Fri Aug 25 2017 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>Leaving Python for JavaScript</description>
+</item>
+<item>
+<link>https://hire.jonasgalvez.com.br/2017/jul/16/my-approach-to-remote-work/</link>
+<guid>tag:nuxt.press,2017:/2017/jul/16/my-approach-to-remote-work/</guid>
+<pubDate>Sun Jul 16 2017 00:00:00 GMT-0300 (Brasilia Standard Time)</pubDate>
+<description>My Approach to Remote Work</description>
+</item>
+</channel>
+</rss>

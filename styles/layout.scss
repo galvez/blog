@@ -1,0 +1,102 @@
+@mixin mobile {
+  @media only screen and (max-width: 1300px) {
+    @content;
+  }
+}
+main, aside {
+  color: #502374;
+  font-family: 'Spectral';
+  font-weight: 500;
+  letter-spacing: 0px;
+  -webkit-font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  -moz-font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+html, body {
+  margin: 0px;
+  background: #e0ff4f;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.go-back {
+  position: absolute;
+  z-index: 2;
+  top: 1.5em;
+  right: 2.5em;
+  font-size: 1.3em;
+  border-bottom: 2px solid #f15626;
+  & span {
+    position: absolute;
+    display: block;
+    bottom: -0.2em;
+    right: -1.2em;
+  }
+}
+.wrapper {
+  display: flex;
+  width: 1300px;
+  // min-height: 100%;
+  // margin-bottom: 5em;
+  justify-content: center; 
+  @include mobile {
+    width: 100%;
+    flex-direction: column;
+  }
+  padding-bottom: 2em;
+  & .content {
+    position: relative;
+    width: 70%;
+    @include mobile {
+      width: calc(100% - 2em);
+      padding: 1em;
+      padding-top: 0;      
+    }
+    // &.entry {
+    //   width: 80%;
+    //   @include mobile {
+    //     width: calc(100% - 8em);
+    //     margin: 4em !important;
+    //     padding-top: 0 !important;
+    //     margin-top: 0 !important;   
+    //   }
+    // }
+    & img {
+      display: block;
+      width: 100%;
+    }
+    & img.cover {
+      display: block;
+      width: calc(100% - 8px);
+      border-left: 4px solid #502374;
+      border-right: 4px solid #502374;
+    }
+  }
+}
+main {
+  position: relative;
+  border-left: 4px solid #502374;
+  border-right: 4px solid #502374;
+  border-bottom: 4px solid #502374;
+  // padding-top: 40px;
+  background: #ffdcdb;
+  padding: 2em;
+  // padding-bottom: 6em;
+  letter-spacing: -0.5px !important;
+  color: #2c1340 !important;
+  @include mobile {
+    margin: 0 auto;
+    width: calc(100% - 4em - 8px);
+    overflow-x: hidden;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+video {
+  width: 100%;
+}

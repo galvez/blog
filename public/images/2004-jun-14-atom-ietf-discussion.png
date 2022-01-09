@@ -1,0 +1,1 @@
+{"statusCode":500,"error":"Internal Server Error","message":"Failed to launch chrome!\nReceived signal 11 SEGV_ACCERR 000000000000\n [0x00010cd44669]\n [0x00010cc5c3f3]\n [0x00010cd44581]\n [0x7fff2045ed7d]\n[end of stack trace]\n\n\nTROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md\n"}

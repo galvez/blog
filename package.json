@@ -1,0 +1,42 @@
+{
+  "name": "resume",
+  "version": "0.0.2",
+  "description": "Code for hire.jonasgalvez.com.br",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.mjs ."
+  },
+  "author": "Jonas Galvez",
+  "dependencies": {
+    "@nuxt/markdown": "0.0.10",
+    "@sindresorhus/slugify": "^2.1.0",
+    "@vue/server-renderer": "^3.2.25",
+    "date-fns": "^1.30.1",
+    "es6-template-string": "^1.2.0",
+    "fastify": "^3.22.0",
+    "fastify-vite": "^3.0.0-alpha.11",
+    "fastify-vite-vue": "^3.0.0-alpha.11",
+    "fastify-walk": "^0.0.3",
+    "gray-matter": "^4.0.3",
+    "node-sass": "^7.0.0",
+    "pino-pretty": "^7.2.0",
+    "sass": "^1.45.0",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/eslint-parser": "^7.15.8",
+    "@babel/eslint-plugin": "^7.14.5",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/style-resources": "^0.1.2",
+    "convert-svg-to-png": "^0.5.0",
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "open-props": "^1.0.13",
+    "postcss-preset-env": "^7.0.1"
+  }
+}
