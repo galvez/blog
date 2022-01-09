@@ -1,10 +1,10 @@
 {
-  "name": "resume",
-  "version": "0.0.2",
+  "name": "blog",
+  "version": "0.0.3",
   "description": "Code for hire.jonasgalvez.com.br",
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt generate",
+    "dev": "node blog.mjs",
+    "build": "node blog.mjs generate",
     "lint": "eslint --fix --ext .js,.mjs ."
   },
   "author": "Jonas Galvez",
