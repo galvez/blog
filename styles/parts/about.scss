@@ -11,6 +11,9 @@ aside {
   background: transparent;
   margin-top: 70px;
   padding: 20px;
+  @include mobile {
+    width: calc(100% - 40px) !important;
+  }
 }
 
 .body {
@@ -38,7 +41,6 @@ aside .btns {
     margin:  0px;
     margin-bottom: 0.5em;
     font-size: 2.2em;
-
     &:hover {
       opacity: 1.0;
     }

@@ -3,6 +3,11 @@
     @content;
   }
 }
+#app {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 main, aside {
   color: #502374;
   font-family: 'Spectral';
@@ -43,7 +48,7 @@ html, body {
   // margin-bottom: 5em;
   justify-content: center; 
   @include mobile {
-    width: 100%;
+    width: 100% !important;
     flex-direction: column;
   }
   padding-bottom: 2em;
@@ -51,8 +56,8 @@ html, body {
     position: relative;
     width: 70%;
     @include mobile {
-      width: calc(100% - 2em);
-      padding: 1em;
+      width: 100%;
+      padding: 0em;
       padding-top: 0;      
     }
     // &.entry {
@@ -88,6 +93,7 @@ main {
   letter-spacing: -0.5px !important;
   color: #2c1340 !important;
   @include mobile {
+    padding: 1em;
     margin: 0 auto;
     width: calc(100% - 4em - 8px);
     overflow-x: hidden;
