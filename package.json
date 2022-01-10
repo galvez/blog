@@ -21,8 +21,10 @@
     "gray-matter": "^4.0.3",
     "node-sass": "^7.0.0",
     "pino-pretty": "^7.2.0",
+    "prismjs": "^1.26.0",
     "sass": "^1.45.0",
-    "string-template": "^1.0.0"
+    "string-template": "^1.0.0",
+    "trim": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
